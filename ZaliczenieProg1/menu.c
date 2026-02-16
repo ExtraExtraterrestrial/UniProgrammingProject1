@@ -50,6 +50,7 @@ void menu_loop() {
 				menu_searchStudents(students);
 				menu_wait();
 				menu_clearScreen();
+				break;
 			case 5:
 				menu_resetStudents(students);
 				menu_clearScreen();
